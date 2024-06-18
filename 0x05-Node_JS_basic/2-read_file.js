@@ -33,6 +33,6 @@ const countStudents = (file) => {
   } catch (error) {
     throw Error('Cannot load the database');
   }
-}
+};
 
 module.exports = countStudents;
